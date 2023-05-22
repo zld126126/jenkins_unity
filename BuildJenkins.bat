@@ -1,2 +1,2 @@
 :: 运行Unity命令行工具进行Android打包
-"E:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe" -batchmode -projectPath "D:\MyProjects\jenkins_unity" -executeMethod MyEditorScript.BuildAndroid -logFile "D:\MyProjects\jenkins_unity\output.log" -quit
+"E:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe" -nographics -batchmode -projectPath "D:\MyProjects\jenkins_unity" -executeMethod MyEditorScript.BuildAndroid -logFile "D:\MyProjects\jenkins_unity\output.log" -quit
